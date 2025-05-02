@@ -33,7 +33,7 @@ Combined feature: 'hyperlinks_ratio'
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics.
   
-  Key Features:
+  Key Features After Feature scaling + selection:
 ![Unknown-3](https://github.com/user-attachments/assets/f3c0f6e9-d002-4eeb-b3ca-cc53f18dbf01)
 
 
