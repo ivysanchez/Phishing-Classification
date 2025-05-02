@@ -7,7 +7,7 @@ This repository holds an attempt to predict whether a website is legitimate or p
 
 ## Overview
 
-The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from a website such as: the google index, page rank, web traffic, domain age, word path, ratio digits url, etc . The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.960 after tuning compared to the baseline model of 0.815, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
+The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from a website such as: the google index, page rank, web traffic, domain age, word path, ratio digits url, etc . The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.961 after tuning compared to the baseline model of 0.815, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
 
 ## Summary of Work Done
 
@@ -34,7 +34,8 @@ Combined feature: 'hyperlinks_ratio'
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics.
   
   Key Features:
-<img width="621" alt="Screenshot 2025-05-02 at 1 14 50 PM" src="https://github.com/user-attachments/assets/6844c4a1-54eb-49fb-82a5-3631b456b315" />
+![Unknown-3](https://github.com/user-attachments/assets/f3c0f6e9-d002-4eeb-b3ca-cc53f18dbf01)
+
 
 
 * A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.![Unknown-3](https://github.com/user-attachments/assets/a86882ce-9e2a-4d79-a805-1d6926f4f2f3)
@@ -98,12 +99,12 @@ Google Colab: Use Google Colab or Jupyter Notebook to run the code and leverage 
 Kaggle: Access the dataset and potentially explore other related datasets.
 
 ### Overview of files in repository
-* Data_Analysis.ipynb: initial look at the dataset features
-* Data_Cleaning.ipynb: Cleaning the dataset, checking for missing values and label encoding.
-* Baseline_Model.ipynb: Initial results of dataset after modeling logistic regression before any preprocessing.
+* Data Analysis.ipynb: initial look at the dataset features
+* Data Cleaning.ipynb: Cleaning the dataset, checking for missing values and label encoding.
+* Baseline Model.ipynb: Initial results of dataset after modeling logistic regression before any preprocessing.
 * Preprocessing.ipynb: scaling, feature selection, and feature engineering.
-* Iterative_Modeling.ipynb: loads multiple trained models and compares results, shows parameter tuning of 2 models.
-* Phishing_Classification.ipynb: shows the all .ipynbs above put together
+* Iterative Modeling.ipynb: loads multiple trained models and compares results, shows parameter tuning of 2 models.
+* phishingdetectionfinal.ipynb: shows the all .ipynbs above put together
  
 ### Software Setup
 * Required Packages: This project uses the following Python packages:
