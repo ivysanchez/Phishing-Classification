@@ -73,6 +73,8 @@ Show/compare results in one table:
 <img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/4b30c291-5c2c-4b89-bdf6-c4d74362d4bd" />
 
 
+<img width="295" alt="Screenshot 2025-05-02 at 4 00 41 PM" src="https://github.com/user-attachments/assets/e955818c-6811-4ef0-a1ad-40ff92d9f87d" />
+
 
 * Bar charts were also generated to compare model performance across the different metrics.
 
